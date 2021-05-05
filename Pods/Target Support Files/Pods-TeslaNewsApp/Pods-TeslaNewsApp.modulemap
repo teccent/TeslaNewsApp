@@ -1,0 +1,6 @@
+framework module Pods_TeslaNewsApp {
+  umbrella header "Pods-TeslaNewsApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
