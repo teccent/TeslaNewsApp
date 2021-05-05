@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B0FC78CA34FA53923BAB643 /* Pods_TeslaNewsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2F3396F278FCC0E2E7C0AA /* Pods_TeslaNewsApp.framework */; };
 		AB940B4B2642F45F00EEDC06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB940B4A2642F45F00EEDC06 /* AppDelegate.swift */; };
 		AB940B4D2642F45F00EEDC06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB940B4C2642F45F00EEDC06 /* SceneDelegate.swift */; };
-		AB940B4F2642F45F00EEDC06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB940B4E2642F45F00EEDC06 /* ViewController.swift */; };
 		AB940B522642F46000EEDC06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB940B502642F46000EEDC06 /* Main.storyboard */; };
 		AB940B542642F46300EEDC06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB940B532642F46300EEDC06 /* Assets.xcassets */; };
 		AB940B572642F46300EEDC06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB940B552642F46300EEDC06 /* LaunchScreen.storyboard */; };
+		AB940B612642F4A000EEDC06 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB940B602642F4A000EEDC06 /* MainViewController.swift */; };
+		AB940B642642F4C100EEDC06 /* ArticlViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB940B632642F4C100EEDC06 /* ArticlViewCell.swift */; };
+		AB940B682642F6D200EEDC06 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB940B672642F6D200EEDC06 /* ApiManager.swift */; };
+		AB940B6B2642F76800EEDC06 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB940B6A2642F76800EEDC06 /* NetworkManager.swift */; };
+		AB940B6E2642F7B900EEDC06 /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB940B6D2642F7B900EEDC06 /* Articles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C2F3396F278FCC0E2E7C0AA /* Pods_TeslaNewsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeslaNewsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB940B472642F45F00EEDC06 /* TeslaNewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeslaNewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB940B4A2642F45F00EEDC06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB940B4C2642F45F00EEDC06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB940B4E2642F45F00EEDC06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AB940B512642F46000EEDC06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB940B532642F46300EEDC06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB940B562642F46300EEDC06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB940B582642F46300EEDC06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB940B602642F4A000EEDC06 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AB940B632642F4C100EEDC06 /* ArticlViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlViewCell.swift; sourceTree = "<group>"; };
+		AB940B672642F6D200EEDC06 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		AB940B6A2642F76800EEDC06 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		AB940B6D2642F7B900EEDC06 /* Articles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
+		C4FF4761A43F238829DED8A1 /* Pods-TeslaNewsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeslaNewsApp.debug.xcconfig"; path = "Target Support Files/Pods-TeslaNewsApp/Pods-TeslaNewsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F27AD7F93058E463A215D296 /* Pods-TeslaNewsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeslaNewsApp.release.xcconfig"; path = "Target Support Files/Pods-TeslaNewsApp/Pods-TeslaNewsApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B0FC78CA34FA53923BAB643 /* Pods_TeslaNewsApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +55,8 @@
 			children = (
 				AB940B492642F45F00EEDC06 /* TeslaNewsApp */,
 				AB940B482642F45F00EEDC06 /* Products */,
+				F0D23F84CD9A2D2F1CDB9488 /* Pods */,
+				E8EB8163FD0F0971FC0AC326 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +73,34 @@
 			children = (
 				AB940B4A2642F45F00EEDC06 /* AppDelegate.swift */,
 				AB940B4C2642F45F00EEDC06 /* SceneDelegate.swift */,
-				AB940B4E2642F45F00EEDC06 /* ViewController.swift */,
+				AB940B672642F6D200EEDC06 /* ApiManager.swift */,
+				AB940B6A2642F76800EEDC06 /* NetworkManager.swift */,
+				AB940B6D2642F7B900EEDC06 /* Articles.swift */,
+				AB940B632642F4C100EEDC06 /* ArticlViewCell.swift */,
+				AB940B602642F4A000EEDC06 /* MainViewController.swift */,
 				AB940B502642F46000EEDC06 /* Main.storyboard */,
-				AB940B532642F46300EEDC06 /* Assets.xcassets */,
 				AB940B552642F46300EEDC06 /* LaunchScreen.storyboard */,
+				AB940B532642F46300EEDC06 /* Assets.xcassets */,
 				AB940B582642F46300EEDC06 /* Info.plist */,
 			);
 			path = TeslaNewsApp;
+			sourceTree = "<group>";
+		};
+		E8EB8163FD0F0971FC0AC326 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C2F3396F278FCC0E2E7C0AA /* Pods_TeslaNewsApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0D23F84CD9A2D2F1CDB9488 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4FF4761A43F238829DED8A1 /* Pods-TeslaNewsApp.debug.xcconfig */,
+				F27AD7F93058E463A215D296 /* Pods-TeslaNewsApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB940B5B2642F46300EEDC06 /* Build configuration list for PBXNativeTarget "TeslaNewsApp" */;
 			buildPhases = (
+				32DFD341AC14EAC67AB24B5B /* [CP] Check Pods Manifest.lock */,
 				AB940B432642F45F00EEDC06 /* Sources */,
 				AB940B442642F45F00EEDC06 /* Frameworks */,
 				AB940B452642F45F00EEDC06 /* Resources */,
+				A8A9143623F0E6D656DC6193 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,12 +170,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32DFD341AC14EAC67AB24B5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeslaNewsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8A9143623F0E6D656DC6193 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeslaNewsApp/Pods-TeslaNewsApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeslaNewsApp/Pods-TeslaNewsApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TeslaNewsApp/Pods-TeslaNewsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AB940B432642F45F00EEDC06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB940B4F2642F45F00EEDC06 /* ViewController.swift in Sources */,
+				AB940B6E2642F7B900EEDC06 /* Articles.swift in Sources */,
+				AB940B6B2642F76800EEDC06 /* NetworkManager.swift in Sources */,
+				AB940B612642F4A000EEDC06 /* MainViewController.swift in Sources */,
+				AB940B642642F4C100EEDC06 /* ArticlViewCell.swift in Sources */,
+				AB940B682642F6D200EEDC06 /* ApiManager.swift in Sources */,
 				AB940B4B2642F45F00EEDC06 /* AppDelegate.swift in Sources */,
 				AB940B4D2642F45F00EEDC06 /* SceneDelegate.swift in Sources */,
 			);
@@ -283,6 +367,7 @@
 		};
 		AB940B5C2642F46300EEDC06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4FF4761A43F238829DED8A1 /* Pods-TeslaNewsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,12 +381,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.tio.TeslaNewsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		AB940B5D2642F46300EEDC06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F27AD7F93058E463A215D296 /* Pods-TeslaNewsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,7 +401,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.tio.TeslaNewsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
